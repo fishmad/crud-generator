@@ -164,7 +164,8 @@ class CrudCommand extends Command
      */
     protected function addRoutes()
     {
-        // return ["Route::resource('" . $this->routeName . "', '" . $this->controller . "');"]; Fishmad
+        // return ["Route::resource('" . $this->routeName . "', '" . $this->controller . "');"]; 
+        // Fishmad
         return
         [
             "Route::get('" . $this->routeName . "/datatables', '" . $this->controller . "@datatables');",
